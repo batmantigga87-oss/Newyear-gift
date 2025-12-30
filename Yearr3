@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For You 🌹</title>
+<style>
+body{
+    margin:0;
+    height:100vh;
+    background:#fff0f3;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    font-family:'Arial';
+}
+
+.bouquet{
+    font-size:3em;
+    animation: float 2s infinite;
+}
+
+@keyframes float{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-15px);}
+    100%{transform:translateY(0);}
+}
+
+h1{
+    color:#ff4d6d;
+}
+</style>
+</head>
+<body>
+
+<div class="bouquet">🌷🌹🌸💐🌺</div>
+<h1>Wishing You a Magical New Year ✨</h1>
+<p>May all your dreams come true 💖</p>
+
+</body>
+</html>
