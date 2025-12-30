@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New Year Wishes 💖</title>
+<style>
+body{
+    margin:0;
+    height:100vh;
+    background:linear-gradient(to bottom,#ff758c,#ff7eb3);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Arial';
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    width:300px;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+h2{
+    color:#ff4d6d;
+}
+
+button{
+    margin-top:20px;
+    padding:10px 25px;
+    border:none;
+    border-radius:20px;
+    background:#ff4d6d;
+    color:white;
+    font-size:1em;
+    cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Happy New Year 💫</h2>
+    <p>
+        May this year bring you happiness,  
+        smiles, success, and beautiful moments 🌸  
+    </p>
+    <button onclick="location.href='page3.html'">Final Surprise 🎁</button>
+</div>
+
+</body>
+</html>
